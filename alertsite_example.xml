@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<Status time="Tue Nov 20 12:51:10 2018 UTC" login="(login)">
+  <Account company="SecureWorks" id="(id)" status="A" sites="(sitecount)">
+    <Device descrip="Agile: Account Wizard" obj_device="(device_id)" notify_content="n" notify="y" monitor="y" istxn="0" type="Secure Web Site" monitor_interval="2" port="" plandesc="(plan description)">
+      <Location loc_descrip="(location description)" obj_location="(location_id)">
+        <blackout_flag>0</blackout_flag>
+        <blackouts_pending>0</blackouts_pending>
+        <display_descrip>(display description)</display_descrip>
+        <dt_last_error>2018-11-20 02:02:07</dt_last_error>
+        <dt_last_scan/>
+        <dt_last_status>2018-11-20 12:47:01</dt_last_status>
+        <dt_last_status_change>1542679623</dt_last_status_change>
+        <dt_last_status_fullpage>2016-04-16 19:10:54</dt_last_status_fullpage>
+        <home_location>10455</home_location>
+        <info_msg/>
+        <last_risk/>
+        <last_status>0</last_status>
+        <last_status_fp>0</last_status_fp>
+        <last_status_warning>0</last_status_warning>
+        <monitor_locs>0</monitor_locs>
+        <resptime_last>0.13</resptime_last>
+        <resptime_last_fp>0.00</resptime_last_fp>
+      </Location>
+    </Device>
+...
