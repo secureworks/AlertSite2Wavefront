@@ -1,0 +1,9 @@
+{
+ "alertsiteurl" :"https://www.alertsite.com/report-api/sitestatus/(customerid)?enabledonly=1", # fill out customerid
+ "proxy" : "https://(proxyurl):(port)", # only supply if a proxy is required to reach the internet
+ "alertsiteid" : "(alertsiteuserid)", # fill out alertsite user id
+ "alertsitepassword" : "(alertsitepassword)", # fill out alertsite password
+ "debug" : 0,
+ "wavefrontproxy" : "(wavefrontproxyhost)", # fill out wavefront proxy host
+ "wavefrontproxyport" : (wavefrontproxyport) # fill out wavefront proxy port
+}
