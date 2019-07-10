@@ -2,7 +2,9 @@
 
 # alertsite_to_wavefront
 # Retrieves latest status of all alertsite checks and sends them to wavefront
-# Developed by Wayne Haber @ www.secureworks.com
+# Developed by Wayne Haber @ www.secureworks.com https://github.com/whaber
+# https://github.com/secureworks/AlertSite2Wavefront
+
 
 import requests
 import json
@@ -136,7 +138,7 @@ def collect_and_send_metrics():
 
 			m1='{0} {1} {2} {3} {4} \n'.format('alertsite.'+x+'.status',vals[0],epoch_sec,'source=alertsite')
 			m2='{0} {1} {2} {3} {4} \n'.format('alertsite.'+x+'.seconds',vals[2],epoch_sec,'source=alertsite')
-            m1=m1.encode('ascii');
+            		m1=m1.encode('ascii');
 			m2=m2.encode('ascii');
 			s.send(m1)
 			s.send(m2)
